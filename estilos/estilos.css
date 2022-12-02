@@ -1,0 +1,156 @@
+
+body{
+    text-align: center;
+    background-image: url(../imgs/maquina\ de\ escribir.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    scroll-behavior:auto;
+}
+
+header {
+    text-shadow: 2px -1px #994907;
+    height: 40%;
+    width: 100%;
+}
+
+ul {
+    text-shadow: 1px -1px #994907;
+}
+
+header>div {
+    margin: auto;  
+    width: 175px;
+    border-radius: 7rem;
+    filter:opacity(0.7);
+
+    background: #f1e5d425;
+    box-shadow:-5px 5px 10px #994907,
+                5px -5px 10px  #994907;
+}
+
+h1 {
+    font-family:'Lavishly Yours', cursive; font-weight: 100;
+    font-size: 6rem;
+    text-indent:-20px;
+    margin-bottom: 30%; 
+}
+
+h2 {
+    font-family: 'EB Garamond', serif;
+    font-weight:10;
+    font-size: 5rem;
+    text-indent: 5px;
+    margin-top: -90px;
+    margin-left: 50px;
+    
+}
+
+h3 {
+    font-family: 'EB Garamond', serif;
+    font-weight:1;
+    font-size: 2.7rem;
+    margin-top: -15px;
+    margin-bottom: -10px;
+    color:rgba(0, 0, 0, 0.);
+    text-shadow:  2px -2px 1px #9b5217b6;
+    text-decoration:underline;
+    background: #a87d4788;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    font-size: 2.1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+a  {
+    color: rgba(0, 0, 0, 0.911);
+    text-decoration: none;
+    filter:opacity(0.9);
+}
+
+section { 
+    width: 100%;
+    margin-top: 5%;
+} 
+
+p {
+    color:#ffebda8a;
+    text-shadow:  1px -1px 2px #000000;
+}
+
+
+section>div {
+    padding: 4%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* color: #141412; */
+    font-size: large;
+    width:75%;
+    display: inline-block;
+    background-image: linear-gradient(to bottom, #d3a85200, #f6ba5300, #eda94a2c, #e39b4231, #d98a3b1f, #d0813621, #c7773110, #be6e2c2f, #b5652841, #ab602336, #a25a1f36, #99541b44),
+    linear-gradient(to bottom, #d3a85200, #f6ba5300, #c4beb61c, #e39b4231, #d98a3b1f, #d0813621, #c7773110, #be6e2c2f, #b5652841, #ab602336, #a25a1f36, #99541b44);  
+    /* text-shadow:  1px -1px 1px #ebdbceb6; */
+    color:#ffebda8a;
+    text-shadow:  1px -1px 1px #000000d3;
+}    
+
+section>ul>li {
+    margin: 1%;
+}
+
+section>ul>li>a {
+    background-image: radial-gradient(circle, #a1794375, #d18e3569, #cd964848, #c99d5a0e, #c5a16c0e);
+    border-radius: 7.8rem;
+    width: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 10%;
+}
+
+footer {
+    width: 100vw;
+    height: 15%;
+    background-color: black;
+    padding: 11px;
+    
+    border-top: 3px groove #994907d5;
+    border-bottom: 3px groove #994907d5;
+}
+
+footer>p {
+    color:#995a07;
+} 
+
+form {
+    margin: 30px;
+}
+
+.form {
+    background: none;
+    margin: 10px;
+    border-radius: 10px;
+    color:#994907;
+    text-shadow:  1px -1px 1px #141412;
+    border-style: inset;
+    border-color: #995a07;
+}
+
+form>textarea {
+    color: #994907;
+}
+
+form>label {
+    color:#ffebda8a;
+    text-shadow:  1px -1px 2px #000000;
+}
+
+#sign {
+    font-size: 1px;
+}
